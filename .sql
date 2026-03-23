@@ -1,0 +1,11 @@
+
+
+CREATE TABLE IF NOT EXISTS requests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    business VARCHAR(50) NOT NULL,
+    project TEXT NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(50),
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
