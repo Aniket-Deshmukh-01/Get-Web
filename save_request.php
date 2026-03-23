@@ -5,9 +5,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 // Database connection settings
 $servername = "localhost";
-$username   = "root";   // Change if not default
-$password   = "";       // Change if needed
-$dbname     = "getweb";
+$username   = "";  
+$password   = "";       // Add your credentials
+$dbname     = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
