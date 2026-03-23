@@ -1,9 +1,9 @@
 <?php
 // Database connection
 $servername = "localhost";
-$username   = "root";
+$username   = "";              //Add your credentials here 
 $password   = "";
-$dbname     = "getweb";
+$dbname     = ""; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
